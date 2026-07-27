@@ -1,39 +1,45 @@
 # 🏦 Bank Loan Analysis Dashboard
 
-An interactive **Power BI dashboard** built to analyze **38,577 bank loan records**. The project focuses on cleaning and transforming raw data, validating business metrics using SQL, and building interactive dashboards to monitor loan performance, repayment trends, customer demographics, and lending risk.
+An interactive **Power BI dashboard** developed to analyze **38,577 bank loan records**. This project focuses on data cleaning, SQL-based KPI validation, and interactive dashboard development to provide insights into loan performance, repayment trends, customer demographics, and lending risk.
 
 ---
 
-# 📌 Project Objectives
+## 📌 Project Overview
 
-- Analyze historical bank loan data to identify lending trends.
-- Track overall loan performance using business KPIs.
-- Compare Good Loans vs Bad Loans.
-- Identify customer demographics and borrowing patterns.
-- Support data-driven decision-making through interactive dashboards.
+This project analyzes historical bank loan data to help financial institutions monitor loan performance and make data-driven decisions. Raw data was cleaned and transformed before being analyzed in SQL and visualized using Power BI.
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🎯 Objectives
 
-- Power BI
-- SQL Server
-- SQL
-- DAX
-- Power Query
-- Microsoft Excel
+- Analyze loan applications and repayment trends.
+- Monitor lending performance through key business KPIs.
+- Compare Good Loans and Bad Loans.
+- Identify customer borrowing patterns.
+- Provide interactive dashboards for business decision-making.
 
 ---
 
-# 📂 Dataset
+## 🛠️ Tools & Technologies
+
+- **Power BI**
+- **SQL Server**
+- **SQL**
+- **Power Query**
+- **DAX**
+- **Microsoft Excel**
+
+---
+
+## 📂 Dataset Information
 
 - **Total Records:** 38,577
-- **Source:** Financial Loan Dataset
-- Data was cleaned, transformed, and validated before visualization.
+- **Dataset Type:** Financial Loan Data
 
-Dataset includes:
+### Dataset Includes
 
 - Loan Applications
+- Loan Status
 - Funded Amount
 - Amount Received
 - Interest Rate
@@ -41,23 +47,9 @@ Dataset includes:
 - Home Ownership
 - Loan Purpose
 - Employee Length
-- Grade & Subgrade
-- Loan Status
-- State Information
-
----
-
-# 📈 Key Performance Indicators (KPIs)
-
-The dashboard tracks the following KPIs:
-
-- Total Loan Applications
-- Total Funded Amount
-- Total Amount Received
-- Average Interest Rate
-- Average Debt-to-Income Ratio (DTI)
-- Month-to-Date (MTD) Metrics
-- Month-over-Month (MoM) Growth
+- Grade & Sub Grade
+- Issue Date
+- State
 
 ---
 
@@ -65,24 +57,31 @@ The dashboard tracks the following KPIs:
 
 ---
 
-## 1️⃣ Summary Dashboard
+## 📌 1. Summary Dashboard
 
-Provides a high-level overview of overall lending performance.
+The Summary Dashboard provides an executive overview of loan portfolio performance.
 
-### Features
+### Key Metrics
 
-- Good Loan vs Bad Loan Analysis
-- Loan Status Breakdown
-- Total Applications
-- Funded Amount
-- Amount Received
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
 - Average Interest Rate
 - Average DTI
-- MTD & MoM KPIs
-- Interactive Filters
-  - State
-  - Grade
-  - Loan Purpose
+- Month-to-Date (MTD) KPIs
+- Month-over-Month (MoM) Growth
+
+### Visualizations
+
+- Good Loan vs Bad Loan Analysis
+- Loan Status Summary
+- KPI Cards
+
+### Interactive Filters
+
+- State
+- Grade
+- Loan Purpose
 
 ### Dashboard Preview
 
@@ -92,9 +91,9 @@ Provides a high-level overview of overall lending performance.
 
 ---
 
-## 2️⃣ Overview Dashboard
+## 📌 2. Overview Dashboard
 
-Provides detailed business insights through interactive visualizations.
+The Overview Dashboard provides detailed business insights through interactive visualizations.
 
 ### Visualizations
 
@@ -103,14 +102,14 @@ Provides detailed business insights through interactive visualizations.
 - Loan Term Analysis
 - Employee Length Analysis
 - Loan Purpose Analysis
-- Home Ownership Distribution
+- Home Ownership Analysis
 
 ### Interactive Filters
 
+- Measure Selection
 - State
 - Grade
-- Loan Quality
-- Measure Selection
+- Good vs Bad Loan
 
 ### Dashboard Preview
 
@@ -120,13 +119,13 @@ Provides detailed business insights through interactive visualizations.
 
 ---
 
-## 3️⃣ Details Dashboard
+## 📌 3. Details Dashboard
 
-Provides transaction-level loan data for detailed analysis.
+The Details Dashboard enables detailed record-level analysis of every loan.
 
 ### Features
 
-- Complete Loan Record Table
+- Loan ID
 - Loan Purpose
 - Home Ownership
 - Grade & Sub Grade
@@ -140,7 +139,7 @@ Provides transaction-level loan data for detailed analysis.
 
 - State
 - Grade
-- Good/Bad Loan
+- Good vs Bad Loan
 
 ### Dashboard Preview
 
@@ -150,42 +149,57 @@ Provides transaction-level loan data for detailed analysis.
 
 ---
 
+# 📈 Key Performance Indicators
+
+The dashboard tracks the following KPIs:
+
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
+- Average Interest Rate
+- Average Debt-to-Income Ratio (DTI)
+- Month-to-Date (MTD) Metrics
+- Previous Month-to-Date (PMTD) Metrics
+- Month-over-Month (MoM) Growth
+
+---
+
 # 🔍 SQL Validation
 
-All dashboard KPIs were independently validated using SQL queries before visualization.
+All business KPIs were independently validated using SQL before being implemented in Power BI.
 
-The SQL analysis includes:
+SQL analysis includes:
 
 - Total Loan Applications
 - MTD & PMTD Loan Applications
-- Funded Amount
-- Amount Received
+- Total Funded Amount
+- Total Amount Received
 - Average Interest Rate
 - Average DTI
 - Good Loan Percentage
 - Bad Loan Percentage
-- Loan Status Summary
-- State-wise Metrics
-- Purpose-wise Analysis
+- Loan Status Analysis
+- State-wise Analysis
+- Loan Purpose Analysis
 
 ---
 
 # 💡 Key Insights
 
-- Good Loans account for **86.2%** of total loan applications.
-- Bad Loans contribute **13.8%** of total applications.
+- **86.2%** of loans were classified as Good Loans.
+- **13.8%** of loans were classified as Bad Loans.
 - Total Funded Amount exceeded **$435M**.
-- Total Amount Received reached **$473M**.
-- Debt Consolidation represents the largest loan purpose.
-- Mortgage and Rent account for the majority of home ownership categories.
-- Loan repayments show a consistent upward trend throughout the year.
+- Total Amount Received exceeded **$473M**.
+- Debt Consolidation was the most common loan purpose.
+- Mortgage and Rent represented the largest home ownership categories.
+- Loan repayments showed a consistent upward trend throughout the year.
 
 ---
 
 # 📁 Repository Structure
 
 ```
-📦 Bank-Loan-Analysis-Dashboard
+Bank-Loan-Analysis-Dashboard
 │
 ├── Bank Loan Analysis PowerBI.pbix
 ├── financial_loan.csv
@@ -198,20 +212,29 @@ The SQL analysis includes:
 
 ---
 
-# 🎯 Skills Demonstrated
+# 🚀 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
-- SQL Analysis
-- Business Intelligence
-- Power BI
+- SQL Querying
+- Data Validation
+- Power BI Dashboard Development
 - DAX
 - Power Query
-- KPI Development
-- Dashboard Design
+- Business Intelligence
 - Data Visualization
+- KPI Development
 - Business Analytics
 
 ---
 
-## ⭐ If you found this project helpful, consider giving it a star!
+## 👨‍💻 Author
+
+**Aishwary Manoj Wasnik**
+
+- 🎓 B.Tech, Computer Science & Engineering
+- National Institute of Technology, Raipur
+
+---
+
+## ⭐ If you found this project useful, don't forget to star the repository!
