@@ -1,40 +1,40 @@
 # 🏦 Bank Loan Analysis Dashboard
 
-An interactive **Power BI dashboard** developed to analyze **38,577 bank loan records**. This project focuses on data cleaning, SQL-based KPI validation, and interactive dashboard development to provide insights into loan performance, repayment trends, customer demographics, and lending risk.
+An interactive **Power BI dashboard** developed to analyze **38,577 bank loan records**. This project demonstrates end-to-end data analytics, including data cleaning, SQL-based KPI validation, and interactive dashboard development to uncover insights into loan performance, repayment trends, customer demographics, and lending risk.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project analyzes historical bank loan data to help financial institutions monitor loan performance and make data-driven decisions. Raw data was cleaned and transformed before being analyzed in SQL and visualized using Power BI.
+The objective of this project is to analyze historical bank loan data and provide meaningful business insights through interactive dashboards. Raw data was cleaned, transformed, validated using SQL, and visualized using Power BI.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Business Objectives
 
-- Analyze loan applications and repayment trends.
-- Monitor lending performance through key business KPIs.
+- Monitor overall lending performance.
+- Track loan applications and repayment trends.
 - Compare Good Loans and Bad Loans.
-- Identify customer borrowing patterns.
-- Provide interactive dashboards for business decision-making.
+- Analyze customer borrowing behavior.
+- Enable data-driven decision-making using interactive dashboards.
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
-- **Power BI**
-- **SQL Server**
-- **SQL**
-- **Power Query**
-- **DAX**
-- **Microsoft Excel**
+- Power BI
+- SQL Server
+- SQL
+- DAX
+- Power Query
+- Microsoft Excel
 
 ---
 
-## 📂 Dataset Information
+# 📂 Dataset Information
 
-- **Total Records:** 38,577
-- **Dataset Type:** Financial Loan Data
+- **Dataset Size:** 38,577 Records
+- **Domain:** Banking & Finance
 
 ### Dataset Includes
 
@@ -48,8 +48,8 @@ This project analyzes historical bank loan data to help financial institutions m
 - Loan Purpose
 - Employee Length
 - Grade & Sub Grade
-- Issue Date
 - State
+- Issue Date
 
 ---
 
@@ -59,16 +59,16 @@ This project analyzes historical bank loan data to help financial institutions m
 
 ## 📌 1. Summary Dashboard
 
-The Summary Dashboard provides an executive overview of loan portfolio performance.
+The Summary Dashboard provides an executive overview of overall lending performance.
 
-### Key Metrics
+### KPIs
 
 - Total Loan Applications
 - Total Funded Amount
 - Total Amount Received
 - Average Interest Rate
 - Average DTI
-- Month-to-Date (MTD) KPIs
+- Month-to-Date (MTD) Metrics
 - Month-over-Month (MoM) Growth
 
 ### Visualizations
@@ -86,14 +86,14 @@ The Summary Dashboard provides an executive overview of loan portfolio performan
 ### Dashboard Preview
 
 <p align="center">
-<img src="Summary.png" width="100%">
+<img src="Images Used/Summary.png" width="100%">
 </p>
 
 ---
 
 ## 📌 2. Overview Dashboard
 
-The Overview Dashboard provides detailed business insights through interactive visualizations.
+The Overview Dashboard focuses on customer behavior and lending trends.
 
 ### Visualizations
 
@@ -102,7 +102,7 @@ The Overview Dashboard provides detailed business insights through interactive v
 - Loan Term Analysis
 - Employee Length Analysis
 - Loan Purpose Analysis
-- Home Ownership Analysis
+- Home Ownership Distribution
 
 ### Interactive Filters
 
@@ -114,14 +114,14 @@ The Overview Dashboard provides detailed business insights through interactive v
 ### Dashboard Preview
 
 <p align="center">
-<img src="Overview.png" width="100%">
+<img src="Images Used/Overview.png" width="100%">
 </p>
 
 ---
 
 ## 📌 3. Details Dashboard
 
-The Details Dashboard enables detailed record-level analysis of every loan.
+The Details Dashboard provides transaction-level analysis for individual loan records.
 
 ### Features
 
@@ -144,31 +144,31 @@ The Details Dashboard enables detailed record-level analysis of every loan.
 ### Dashboard Preview
 
 <p align="center">
-<img src="Details.png" width="100%">
+<img src="Images Used/Details.png" width="100%">
 </p>
 
 ---
 
 # 📈 Key Performance Indicators
 
-The dashboard tracks the following KPIs:
+The dashboard monitors:
 
 - Total Loan Applications
 - Total Funded Amount
 - Total Amount Received
 - Average Interest Rate
 - Average Debt-to-Income Ratio (DTI)
-- Month-to-Date (MTD) Metrics
-- Previous Month-to-Date (PMTD) Metrics
+- Month-to-Date (MTD) Performance
+- Previous Month-to-Date (PMTD) Performance
 - Month-over-Month (MoM) Growth
 
 ---
 
 # 🔍 SQL Validation
 
-All business KPIs were independently validated using SQL before being implemented in Power BI.
+All dashboard KPIs were independently validated using SQL queries before visualization.
 
-SQL analysis includes:
+SQL validation includes:
 
 - Total Loan Applications
 - MTD & PMTD Loan Applications
@@ -186,27 +186,29 @@ SQL analysis includes:
 
 # 💡 Key Insights
 
-- **86.2%** of loans were classified as Good Loans.
-- **13.8%** of loans were classified as Bad Loans.
+- Good Loans account for **86.2%** of total applications.
+- Bad Loans account for **13.8%** of total applications.
 - Total Funded Amount exceeded **$435M**.
 - Total Amount Received exceeded **$473M**.
-- Debt Consolidation was the most common loan purpose.
-- Mortgage and Rent represented the largest home ownership categories.
-- Loan repayments showed a consistent upward trend throughout the year.
+- Debt Consolidation is the most common loan purpose.
+- Mortgage and Rent are the largest home ownership categories.
+- Monthly repayments show a consistent upward trend.
 
 ---
 
 # 📁 Repository Structure
 
-```
+```text
 Bank-Loan-Analysis-Dashboard
+│
+├── Images Used
+│   ├── Summary.png
+│   ├── Overview.png
+│   └── Details.png
 │
 ├── Bank Loan Analysis PowerBI.pbix
 ├── financial_loan.csv
 ├── SQLQuery1.sql
-├── Summary.png
-├── Overview.png
-├── Details.png
 └── README.md
 ```
 
@@ -217,24 +219,25 @@ Bank-Loan-Analysis-Dashboard
 - Data Cleaning
 - Data Transformation
 - SQL Querying
-- Data Validation
-- Power BI Dashboard Development
+- SQL Validation
+- Power BI
 - DAX
 - Power Query
-- Business Intelligence
 - Data Visualization
+- Dashboard Design
+- Business Intelligence
 - KPI Development
 - Business Analytics
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Aishwary Manoj Wasnik**
 
-- 🎓 B.Tech, Computer Science & Engineering
-- National Institute of Technology, Raipur
+🎓 B.Tech, Computer Science & Engineering  
+National Institute of Technology, Raipur
 
 ---
 
-## ⭐ If you found this project useful, don't forget to star the repository!
+## ⭐ If you found this project helpful, don't forget to give it a star!
